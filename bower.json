@@ -1,0 +1,23 @@
+{
+  "name": "virgin-pulse-animation",
+  "version": "1.0.0",
+  "homepage": "https://github.com/VirginPulse/virgin-pulse-animation",
+  "authors": [
+    "James Martin <james.martin@virginpulse.com>"
+  ],
+  "keywords": [
+    "animation",
+    "burst",
+    "bubble",
+    "javascript",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
