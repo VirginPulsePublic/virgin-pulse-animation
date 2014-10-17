@@ -1,0 +1,88 @@
+/* Mockup UI */
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  min-width: 800px; }
+
+body {
+  position: relative;
+  min-height: 500px;
+  background: #fff; }
+  body > header {
+    position: relative;
+    height: 65px;
+    background: #26343b; }
+
+.progress-bar {
+  position: absolute;
+  left: 0;
+  top: 100%; }
+  .progress-bar > .content {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 100%;
+    line-height: 65px;
+    text-align: center;
+    background: #E7E5DB;
+    z-index: 1; }
+  .progress-bar .progress {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 1; }
+    .progress-bar .progress .bar {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-image: -webkit-linear-gradient(left, #80E703, #5fac00);
+      background-image: linear-gradient(to right, #80E703, #5fac00);
+      border-radius: inherit; }
+  .progress-bar .circles {
+    left: 0;
+    right: 50%; }
+
+.cards {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.75); }
+  .cards > .container {
+    margin-top: -50px; }
+
+.card {
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+  margin: 0 40px; }
+  .card > .content {
+    position: relative;
+    display: block;
+    width: 310px;
+    height: 140px;
+    background: white; }
+    .card > .content:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 8px;
+      background: #fd923a; }
+  .card.tall > .content {
+    height: 220px; }
+    .card.tall > .content:before {
+      background: #5c83d9; }
