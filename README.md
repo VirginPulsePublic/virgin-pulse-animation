@@ -18,6 +18,6 @@ An alternate solution is to pull down the code manually.
 
 Once the code is in your project, make sure to include bundled/jquery.cardeffect.js (or the minified version) to your HTML.
 
-## Usage
+## Demo and Usage
 
-Check `example/index.html` for sample plugin usage.
+Documentation on how to implement the plugin, as well as live demos, can be found [here](http://virginpulsepublic.github.io/virgin-pulse-animation).
